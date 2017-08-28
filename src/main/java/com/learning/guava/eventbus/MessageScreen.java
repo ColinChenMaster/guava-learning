@@ -21,6 +21,6 @@ public class MessageScreen {
     public static void main(String[] args) {
         EventBus eventBus = new EventBus();
         eventBus.register(new MessageScreen());
-        eventBus.post("Hello Screen");
+        eventBus.post(1);
     }
 }
